@@ -1,28 +1,91 @@
-.App {
+.currency-prices-subscription {
+  padding: 5px 10px;
+}
+
+.currency-prices-subscription__input {
+  font-size: 14px;
+  padding: 5px;
+  width: 350px;
+}
+
+.currency-prices-subscription__subscribe {
+  font-size: 14px;
+  padding: 6px;
+  width: 150px;
+}
+
+.currency-ticker
+{
+  display: flex;
+  padding: 5px 10px;
+}
+
+.ticker-item {
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #4a4a4a;
+  margin: 1px;
+  position: relative;
+}
+
+.ticker-item__remove {
+  position: absolute;
+  top: 2px;
+  right:2px;
+}
+
+.ticker-item__elem {
+  height: 25px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.ticker-item__header {
+  width: 200px;
+}
+
+.ticker-item__header__title {
+  width: 100px;
+}
+
+.ticker-item__header__last-value {
+  width: 100px;
+}
+
+.ticker-item__change {
+  width: 200px;
+}
+
+.ticker-item__percent {
+  width: 100px;
+  font-size: 18px;
+  font-weight: bold;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.ticker-item__percent--state--up {
+  color: green;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.ticker-item__percent--state--down {
+  color: red;
 }
 
-.App-title {
-  font-size: 1.5em;
+.ticker-item__points {
+  width: 100px;
+  font-size: 14px;
+  text-align: center;
 }
 
-.App-intro {
-  font-size: large;
+.ticker-item__points--state--up {
+  color: green;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.ticker-item__points--state--down {
+  color: red;
+}
+
+.disclaimer {
+  padding: 10px;
 }
