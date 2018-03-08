@@ -4,5 +4,5 @@
 4. npm start
 5. http://localhost:3000/
 
-6. npm 
+6. npm test
 
